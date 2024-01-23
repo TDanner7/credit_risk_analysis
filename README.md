@@ -2,7 +2,7 @@
 
 ## Overview of the Analysis
 
-* This repo is aims to create a model which will accurately predict healthy vs high risk loans based on the following attributes:
+* This repo aims to use Logistical Regression Models to accurately predict healthy vs high risk loans based on the following attributes:
   * loan_size, interest_rate, borrower_income, debt_to_income, num_of_accounts, derogatory_marks, and total_debt
 * Machine Learning Model 1 will attempt to predict the health of the loan based on the provided data which includes 75,036 healthy loans and 2,500 high risk loans.
 * Machine Learning Model 2 will deploy a Random Over Samper tool which transforms our data to contain 56,271 healthy loans and 56,271 high risk loans.

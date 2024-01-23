@@ -33,13 +33,7 @@
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Machine Learning Model 1:
  * Although this model was able to accurately predict healthy loans with almost 100% accuracy, it fell short when trying to match high risk loans. Out of the total of 619 high risk loans that were tested in the model, it incorrectly labeled 56 of them as healthy. this is a ~9% recall which would be too high in this situation.
 * Machine Learning Model 2:
- * Although this model does not perfectly predict healthy and risky loans, it does have a far better recall score than Model 1. only incorrectly predicting a risky loan as healthy ~1% of the time. This is the most important factor and is why I would recommend using this Model as a first line of defense. Although I think this Model can be used as a first line I think further work must be done to feel more confident in the models. (Neural Network?)
-
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasonin
+ * Although this model does not perfectly predict healthy and risky loans, it does have a far better recall score than Model 1. only incorrectly predicting a risky loan as healthy ~1% of the time. This is the most important factor and is why I would recommend using this Model as a first line of defense. Although I think this Model can be used as a first line I think further work must be done to feel more confident in the models and not miss on on healthy loans that are incorrectly labeled as risky. (Neural Network?)
